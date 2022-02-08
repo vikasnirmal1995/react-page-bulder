@@ -6,7 +6,7 @@ import "./styles/main.scss"
 const  App = () => {
     const [editor, setEditor] = useState(null)
 
-    console.log("editor states>>", editor.getHtml())
+    // console.log("editor states>>", editor.getHtml())
 
     useEffect(() =>{
         const editor = grapesjs.init({
